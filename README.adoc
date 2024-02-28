@@ -132,6 +132,13 @@ image::success2.png["Ca run!", width=80%]
 Pour ce TP, il vous faudra simplement rendre le projet complet (`src`) ainsi que la dernière version du fichier `pom.xml` sur votre dépôt et la javadoc de votre code.
 
 [appendix]
-== Import dans Eclipse
+== compte rendus
 
-TO BE DONE...
+Nous avons utilisé les commandes suivante lors de ce tp : 
+	mvn clean : nettoyer ce qui c'est passé avant
+	mvn compile : voir les erreurs de compilations
+	mvn package : fabrication d'une version executable
+	java -jar target/tp_qualite-1.0.jar : observer la creation du fichier .jar et observer l'execution
+	mvn site : creer une javadoc
+
+Ces commandes nous ont dojnnc permis de decouvrir de nouvelles choses possibles à faire grace a github.
